@@ -1,3 +1,7 @@
 export const Tutorial = () => {
-    return null;
+    return (
+        <div>
+            
+        </div>
+    );
 };

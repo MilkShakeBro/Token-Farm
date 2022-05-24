@@ -1,3 +1,7 @@
 export const Datafeed = () => {
-    return null;
+    return (
+        <div>
+            
+        </div>
+    );
 };
