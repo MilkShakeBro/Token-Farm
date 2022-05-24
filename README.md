@@ -16,54 +16,55 @@ This is a repo to build your own full stack defi staking application for yield f
 - `getUserTotalValue`: Get the total value that users have supplied based on calculations from the Chainlink Price Feeds. 
 - `issueTokens`: Issue a reward to the users staking on your platform!
 
-And more!
-
-- [defi-stake-yield-brownie](#defi-stake-yield-brownie)
-  - [Summary](#summary)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Useage](#useage)
-  - [Scripts](#scripts)
-  - [Front end](#front-end)
-  - [Testing](#testing)
-  - [Linting](#linting)
-- [Resources](#resources)
-- [License](#license)
-
 ## Prerequisites
 
 Please install or have installed the following:
 
 - [nodejs and npm](https://nodejs.org/en/download/)
 - [python](https://www.python.org/downloads/)
+
 ## Installation
 
 1. [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), if you haven't already. Here is a simple way to install brownie.
 
-```bash
-pip install --user pipx
-pipx ensurepath
-# restart your terminal
-pipx install eth-brownie
-```
-Or if you can't get `pipx` to work, via pip (it's recommended to use pipx)
-```bash
 pip install eth-brownie
-```
 
 2. Clone this repo
 ```
-git clone https://github.com/PatrickAlphaC/defi-stake-yield-brownie
-cd defi-stake-yield-brownie
+git clone https://github.com/MilkShakeBro/Token-Farm
+
+or
+
+Download .zip file
 ```
 
-1. [Install ganache-cli](https://www.npmjs.com/package/ganache-cli)
+3. Manually change npm's default directory
+```
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+source ~/.profile
+```
+
+4. [Install ganache-cli](https://www.npmjs.com/package/ganache-cli)
 
 ```bash
+cd ~/Desktop/Token-Farm/
 npm install -g ganache-cli
 ```
 
 If you want to be able to deploy to testnets, do the following. 
+
+## Front end
+```bash
+cd front_end
+npm install --global yarn
+yarn
+yarn start
+```
+and you'll be able to interact with the UI
+
+---
 
 4. Set your environment variables
 
@@ -96,14 +97,6 @@ This will deploy the contracts, depoly some mock Chainlink contracts for you to 
 brownie run scripts/deploy.py --network kovan
 ```
 This will do the same thing... but on Kovan.
-
-## Front end
-```bash
-cd front_end
-yarn
-yarn start
-```
-and you'll be able to interact with the UI
 
 ## Testing
 
