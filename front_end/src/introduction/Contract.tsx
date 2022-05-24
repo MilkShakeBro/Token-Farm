@@ -1,3 +1,7 @@
 export const Contract = () => {
-    return null;
+    return (
+        <div>
+            Hello World!
+        </div>
+    );
 };
