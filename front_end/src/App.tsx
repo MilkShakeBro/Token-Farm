@@ -107,12 +107,13 @@ export const App = () => {
           </DAppProvider>
         }>
         </Route>
-        <Route path="/arbitrage" element={<Arbitrage />} />
-        <Route path="/contract"  element={<Contract />} />
-        <Route path="/datafeed"  element={<Datafeed />} />
-        <Route path="/defi"      element={<Defi />} />
-        <Route path="/exchange"  element={<Exchange />} />
-        <Route path="/tutorial"  element={<Tutorial />} />
+        <Route path="/arbitrage"   element={<Arbitrage />} />
+        <Route path="/contract"    element={<Contract />} />
+        <Route path="/datafeed"    element={<Datafeed />} />
+        <Route path="/defi"        element={<Defi />} />
+        <Route path="/exchange"    element={<Exchange />} />
+        <Route path="/tutorial"    element={<Tutorial />} />
+        <Route path="/whitepaper"  element={<Whitepaper />} />
       </Routes>
     </BrowserRouter>
   )

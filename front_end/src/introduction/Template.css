@@ -1,4 +1,51 @@
-h1 {
+.container {
+  background-color: #fff1ff;
+  max-width: 30rem;
+  margin: 4rem auto;
+  border:rgba(255, 255, 255, 1.0) solid 2rem;
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.caption {
+  font-family: 'Dancing Script', cursive;
+  color: #af8fb6;
+  text-shadow: rgb(215, 215, 215) 0.3rem 0.3rem 0.4rem;
+  margin: 5rem auto;
   text-align: center;
-  padding: 2rem;
+  font-size: 400%;
+  letter-spacing: 0.3px;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  color: #af8fb6;
+  text-shadow: rgb(215, 215, 215) 0.3rem 0.3rem 0.4rem;
+  margin: 2rem auto;
+  text-align: left;
+  font-size: 200%;
+  letter-spacing: 0.3px;
+  padding: 0 1rem;
+}
+
+.subtitle {
+  font-family: 'Dancing Script', cursive;
+  color: #af8fb6;
+  text-shadow: rgb(215, 215, 215) 0.3rem 0.3rem 0.4rem;
+  margin: 0.5rem auto;
+  text-align: left;
+  font-size: 170%;
+  letter-spacing: 0.3px;
+  padding: 0 3rem;
+}
+
+.content {
+  font-family: 
+    "Times New Roman", 
+    Times, 
+    serif;
+  
+  line-height: 2;
+  font-size: 1.5rem;
+  padding: 0 3rem;
 }
