@@ -26,13 +26,13 @@ export type Token = {
 // https://material-ui.com/styles/basics/
 const useStyles = makeStyles((theme) => ({
   title: {
-    fontWeight: 500,
-    color: 'hsl(35, 79%, 26%)',
+    fontWeight: 600,
+    color: '#fff1ff',
     textAlign: "center",
     padding: theme.spacing(2),
     marginBottom: '4rem',
-    filter: 'drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5))',
-    boxShadow: '0 2px 5px 2px hsl(35, 79%, 26%)'
+    filter: 'drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.2))',
+    boxShadow: '0 2px 5px 2px #af8eb5'
   },
 }))
 

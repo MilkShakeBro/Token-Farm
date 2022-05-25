@@ -31,6 +31,10 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     maxWidth: "400px",
   },
+  button: {
+    backgroundColor: "#af8eb5",
+    color: "white",
+  }
 }))
 
 // token is getting passed in as a prop
@@ -111,8 +115,7 @@ export const StakeForm = ({ token }: StakeFormProps) => {
           disabled={isMining || hasZeroBalance}
         />
         <Button
-          color="primary"
-          variant="contained"
+          className={classes.button}
           size="large"
           onClick={handleStakeSubmit}
           disabled={isMining || hasZeroAmountSelected}

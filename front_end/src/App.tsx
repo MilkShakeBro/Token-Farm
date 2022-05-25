@@ -28,6 +28,7 @@ import { Datafeed } from "./introduction/Datafeed";
 import { Defi } from "./introduction/Defi";
 import { Exchange } from "./introduction/Exchange";
 import { Tutorial } from "./introduction/Tutorial";
+import { Whitepaper } from "./introduction/Whitepaper";
 
 /* Bootstrap */
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,16 +42,21 @@ export const App = () => {
     <BrowserRouter>
       <div>
         <Navbar
-          color="warning"
+          className="nav-color"
           expand="md"
           dark
         >
           <NavbarBrand href="/">
-            TokenFarmPlayground
+            Token Farm
           </NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} />
           <Collapse isOpen={!collapsed} navbar>
       <Nav navbar>
+      <NavItem className="navitem">
+          <NavLink href="/whitepaper">
+            Whitepaper
+          </NavLink>
+        </NavItem>
         <NavItem className="navitem">
           <NavLink href="/defi">
             Defi

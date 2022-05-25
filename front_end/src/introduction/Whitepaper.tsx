@@ -1,6 +1,6 @@
 import './Template.css'
 
-export const Arbitrage = () => {
+export const Whitepaper = () => {
     return (
         <div>
             

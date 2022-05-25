@@ -11,6 +11,7 @@ import Alert from "@material-ui/lab/Alert"
 import { useNotifications } from "@usedapp/core"
 import { formatUnits } from "@ethersproject/units"
 import { BalanceMsg } from "../../components"
+import { Whitepaper } from "../../introduction/Whitepaper"
 
 export interface UnstakeFormProps {
   token: Token
@@ -23,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "flex-start",
     gap: theme.spacing(2),
+  },
+  button: {
+    backgroundColor: "#af8eb5",
+    color: "white",
   },
 }))
 
@@ -76,8 +81,7 @@ export const Unstake = ({ token }: UnstakeFormProps) => {
           tokenImgSrc={image}
         />
         <Button
-          color="primary"
-          variant="contained"
+          className={classes.button}
           size="large"
           onClick={handleUnstakeSubmit}
           disabled={isMining}

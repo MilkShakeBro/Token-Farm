@@ -21,13 +21,16 @@ const useStyles = makeStyles((theme) => ({
     gap: theme.spacing(4),
   },
   box: {
-    backgroundColor: "white",
+    backgroundColor: "#fff1ff",
     borderRadius: "25px",
-    margin: `${theme.spacing(4)}px 0`,
+    marginBottom: "2rem",
     padding: theme.spacing(2),
   },
   header: {
-    color: "white"
+    color: "#fff1ff",
+    fontSize: "2.5rem",
+    paddingTop: "3rem",
+    texAlign: "left",
   }
 }))
 
@@ -47,7 +50,7 @@ export const YourWallet = ({ supportedTokens }: YourWalletProps) => {
 
   return (
     <Box>
-      <h1 className={classes.header}>Your Wallet</h1>
+      <div className={classes.header}>Stake Token</div>
       <Box className={classes.box}>
         <div>
           {isConnected ? (
