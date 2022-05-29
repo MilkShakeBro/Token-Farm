@@ -1,9 +1,97 @@
 import './Template.css'
-
 export const Exchange = () => {
     return (
-        <div>
-            
+        <div className="container">
+            <h1 className="caption">Exchange</h1>
+            <p className="content">With the surge in Cryptocurrencies, traders’ demand for Cryptocurrency Exchanges to perform trading. Crypto Exchanges play a vital role in the development of the blockchain industry.</p>
+            <p className="content">Generally speaking, a Cryptocurrency Exchange allows the investors to trade, buy or sell cryptocurrencies instantly. Usually, a  crypto exchange offers different trading pairs. For example, the most popular trading pair is BTC/USD, but exchanges also offer BTC/EUR, ETH/USD, and countless other pairs. Trading pairs on decentralized exchanges are always between two cryptocurrencies, such as ETH/USDC.</p>
+
+            <p className="content">Also, a crypto exchange can offer either spot trading or futures. Spot trading refers to the purchase of cryptocurrency, while futures trading refers to the right to purchase cryptocurrency. In other words, in spot markets you buy crypto, but in futures markets, you speculate on the price movements.</p>
+
+            <p className="title">CEXs are Custodial</p>
+            <p className="content">A centralized crypto exchange is run by a third party, monitoring and facilitating transactions and securing assets. The exchange provides the necessary infrastructure for market participants to conduct transactions. These transactions are generally settled off-chain on a centralized server the exchange operates.</p>
+            <p className="content">Furthermore, centralized exchanges are (mostly) regulated by financial authorities and have to operate under KYC and AML regulations to ensure their operations are legal.</p>
+            <p className="content">In the following content, we will go through nine different properties of CEXs.</p>
+            <p className="title">Order broadcasting、Order matching</p>
+            <p className="content">With regards to the order book functionality: centralized trading platforms typically sort limit orders by price, from the highest to the lowest. The order book of BTC/USD trades, to name an example pair, will contain all the purchase and sale orders that have been placed on the exchange at different (limit) prices.</p>
+            <p className="content">At the top of the book, users can find the highest bid for BTC, and at the bottom, the lowest ask prices; the middle of the book, where bids are closer to asks, will help determine the point at which a new market order will be executed. Slippage occurs when a market trade is larger than the amount available at the first level of the order book, or also when the bid and ask prices change before the exchange can execute the market order. Slippage essentially means the trader pays more than expected for their order.</p>
+            <p className="title">
+            Trading volume and Liquidity
+            </p>
+            <p className="content">Generally speaking, the higher the levels of trading volume, the lower the volatility and market manipulation that's likely to take place on that exchange. Volatility is a crucial consideration. Because of the time it takes for transactions to be completed, the price of a given token or coin can change between the time the transaction is initiated and the time it is finished. The higher the trade volume and the faster the transaction can be processed, the less likely this fluctuation is to be problem.</p>
+            <p className="content">Centralized exchanges have much higher liquidity and allow traders to conduct trades up to tens of hundreds of millions of dollars for the most liquid cryptocurrencies.</p>
+            <p className="title">Usability</p>
+            <p className="content">Centralized exchanges are drastically easier to use than decentralized exchanges. By entrusting transactions to a company and sometimes paying a small fee, users often get the benefits of easy access to their money (think debit cards and ATMs), tools that help visualize their assets (online banking and apps are great examples), all of which are typically done with easy-to-use and visually appealing platforms.</p>
+            <p className="title">Security and Hacking</p>
+            <p className="content">The way an exchange reacts to an event such as a hack is by no means a given. Some exchanges have worked hard to refund customer losses, while others have been less successful in that regard. Still others have shuttered as a result of these types of attacks.</p>
+            <p className="title">Privacy</p>
+            <p className="content">On a CEX, the exchange retains  custody of the assets. This means users rely on the exchange to honor its commitment and process transfers of their cryptocurrency. They do not have control of their private key, so the exchange can theoretically confiscate their assets at any moment. In other words, a CEX works similar to a bank, which is why hardcore crypto believers swear by the manifesto not your keys, not your coins</p>
+            <p className="title">Control</p>
+            <p className="content">In the case of cryptocurrencies, which are often stored in digital wallet, an individual can lose hundreds or thousands of dollars in digital currency holdings simply by forgetting the key to a wallet. An exchange will not allow this to happen, as it safeguards the holdings in place of the individual investor.</p>
+            <p className="content">On several occasions, centralized exchanges have been accused of manipulating the prices of their currencies, and users oftentimes don’t have complete access. Withdrawal limits and market forces mean it is possible that users cannot access their money at once, and in the worst-case scenario, the money may not be there at all.</p>
+            <p className="title">Variety</p>
+            <p className="content">The variety of trading pairs on CEXes depends on the exchange. Some exchanges like Binance or KuCoin are famous for listing a lot of altcoins, while others offer significantly fewer cryptocurrencies. However, CEXes offer the possibility to trade crypto against fiat currencies.</p>
+            <p className="title">Risks</p>
+            <p className="content">The problem wth CEXes are that users give up custody of their crypto and these exchanges are more vulnerable to hacks. Almost all of the big crypto exchanges have experienced hacker attacks while giving up custody means your account could get frozen for no reason even if you passed KYC requirements.</p>
+            <p className="content">Investing in cryptocurrencies and Initial Coin Offerings ("ICOs") is highly risky and speculative, and this article is not a recommendation by Investopedia or the writer to invest in cryptocurrencies or ICOs. Since each individual's situation is unique, a qualified professional should always be consulted before making any financial decisions. Investopedia makes no representations or warranties as to the accuracy or timeliness of the information contained herein. As of the date this article was written, the author owns bitcoin and ripple.</p>
+            <p className="title">Regulation</p>
+            <p className="content">CEXes are regulated and have to comply with KYC and AML standards to prevent money laundering and financing terrorist groups. Some centralized exchanges apply only lax KYC, but completely KYC-less centralized exchanges pretty much do not exist anymore.</p>
+            <p className="title">DEXs are non-Custodial</p>
+            <p className="content">A decentralized cryptocurrency exchange is not operated by a central authority but runs on a system of smart contracts that allows the exchange to function without centralized oversight, they cut out the middle man, generating what is often thought of as a "trustless" environment. This makes decentralized exchanges permissionless, meaning anyone is free to join without requiring permission from the exchange. Thus, decentralized exchanges have no KYC or AML regulation. These types of exchanges function as peer-to-peer exchanges. Assets are never held by an escrow service, and transactions are done entirely based on smart contracts and atomic swaps.</p>
+            <p className="content">Decentralized exchanges also operate on-chain and have a different mechanism for matching and settling trades. Instead of trading against other market participants, trades are matched by an automated market maker, a system providing liquidity for trading pairs of cryptocurrencies.
+In fact, there are two main types of DEXs: Order book based and Liquidity pool based.
+</p>
+            <p className="content">In the following content, we will go through several different properties of CEXs.</p>
+            <p className="title">Order Book Based DEX</p>
+            <p className="content">An order book based DEX operates similarly to CEXs, where users can buy and sell orders at their chosen prices. The main difference is that in a DEX the assets are held in the users wallets, not in exchange wallets.</p>
+            <p className="content">Order books DEXs can be either on or off-chain. Off-chain order books are more efficient, trades remain off-chain (e.g. on a server) until they are matched and executed on-chain. dYdX, DeversiFi, Serum are some of the most popularDEXs of this type.</p>
+            <p className="title">Liquidity Pool Based DEXs</p>
+            <p className="content">To understand LP Based DEXs, first we need to understand what a liquidity pool is. Liquidity pools are pools of tokens that sit in a smart contract ready to be exchanged for their pair tokens.</p>
+            <p className="content">Typically an LP holds 2 tokens and each pool has a market for that pair of tokens. Gravely simplified: when you want to swap ETH to USDC on Uniswap, you take out USDC and give ETH to the ETH/USDC pool.</p>
+            <p className="content">Most liquidity pools use Automated Market Makers (AMM) which predefined asset prices algorithmically. AMM is one of the most innovative inventions of DeFi as it achieves high efficiency.</p>
+            <p className="title">Automated Market Maker</p>
+            <p className="content">DEXs use automated market maker protocols to determine the prices of assets without a centralized body orchestrating trades. A common approach is the “constant product” mechanism, which determines prices offered as a function of the ratio of the DEX’s total reserves of each of the assets involved. This has the advantage of tending to keep reserves in relative balance: If any asset became scarce, it would become extremely expensive.</p>
+            <p className="title">Risks to be aware of when using AMMs</p>
+            <p className="subtitle">Impermanent Loss</p>
+            <p className="content">Impermanent loss is the loss of profit compared to holding the token versus providing liquidity. Your loss becomes permanent when you remove your tokens from the pool.</p>
+            <p className="subtitle">Price slippage and Front running</p>
+            <p className="content">Price slippage is the difference between the expected price and the price when the trade is executed. Slippage is the highest when there’s little amount of liquidity in the pool and when a large order is executed. Low liquidity + Large orders = Bad news aka High Price Slippage. You can set your slippage tolerance in most DEX, the lower the better.Orders made on an AMM are broadcasted to the blockchain for everyone. Front-runner bots make a profit by picking orders and front-running them by placing a higher transaction fee to have their order mined faster than yours, raising the price you have to pay for the asset and then selling it after you bought for a higher price. This is known as a Sandwich Attack. There are some DEX now that offer protection against this attack like CowSwap.</p>
+            <p className="content">Briefly speaking, a decentralised exchange works as below:</p>
+            <p className="content">1. A token owner places the order: In order to exchange his/her assets with another asset available on DEX. The token owner specifies the number of units, they have to sell, the cost of the token, and until which time bids for their assets is allowed.</p>
+            <p className="content">2. Once the selling order is set, other users can submit bids by singling a buy order.</p>
+            <p className="content">3. Once the time is set by the sellers, all the bids are reviewed and executed by both the parties.</p>
+            <p className="title">Security and Hacking</p>
+            <p className="content">The system’s peer-to-peer model leaves little to no room to infiltrate or manipulate, so decentralized exchanges are nearly impossible to hack, as a person would have to hack every user</p>
+            <p className="content">Decentralized exchanges can also get hacked, although hackers can only target individual smart contracts and not the exchange as a whole. Thus, they are generally considered safer, although there have also been DEX hacks. If you are not a liquidity provider, you retain custody of your assets on a DEX and are thus not at risk of hacks.</p>
+            <p className="title">Privacy</p>
+            <p className="content">Decentralized currencies give users far more privacy protections than their centralized counterparts. Instead of having to go through the Know Your Customer (KYC) process that centralized companies require for users, peer-to-peer transactions can be done with near-total anonymity, meaning that money can be transferred by virtually any person for any reason.</p>
+            <p className="content">On a DEX, you as the user retain custody of your private key and thus your cryptocurrency. A DEX never obtains custody of your crypto assets. Instead, they always remain in your wallet and thus under your control.</p>
+            <p className="title">Usability</p>
+            <p className="content">Existing DEXs are not at all user-friendly compared to the CEX.  DEXs may be quite difficult to understand especially for new users and have a steep learning curve.</p>
+            <p className="title">Liquidity</p>
+            <p className="content">Decentralized exchanges have much lower liquidity due to their on-chain nature. This results in slippage, where large orders can only be completed at worse prices than traders seek. Thus, traders can de facto incur higher costs on DEXs if they wish to trade significant sums.</p>
+            <p className="content">A major flaw of decentralized exchanges is that they make it very difficult to get cash quickly. Users are often limited on how much they can spend at once and must go through several steps to get from the value on their screens to fiat currency1, especially given that so few businesses accept crypto at the moment.</p>
+            <p className="content">DEXs may struggle more than CEXs when working with larger investors. For one thing, since they cannot yet compete with the largest CEXs in size, they cannot offer as much liquidity. When they meet with insufficient liquidity, large orders can face unplanned additional costs called “slippage.” Furthermore, institutional investors face AML and other regulatory hurdles of their own and may struggle to deal with exchanges that do not submit to similar requirements.</p>
+            <p className="title">Control</p>
+            <p className="content">DEXs aim to offer lower transaction fees, let users directly hold their own assets and avoid some regulatory burdens. Also, DEXs are able to complete transactions more quickly and cheaply than their centralized counterparts.</p>
+            <p className="title">Fees</p>
+            <p className="content">Decentralized exchanges may have lower maker and taker fees for individual trades but settling the trades on-chain often results in higher total costs than on a centralized exchange.</p>
+            <p className="title">Variety</p>
+            <p className="content">DEXs provide a wide variety of crypto-to-crypto trading pairs. Since DEXs are permissionless, anyone can provide liquidity for a new trading pair and start a new market. You can not trade crypto against fiat currencies on decentralized exchanges, only against stablecoins</p>
+            <p className="title">Risks</p>
+            <p className="content">As neat as this system is, it does introduce a risk for the liquidity providers behind the pool. The risk is called impermanent loss. Liquidity providers are entitled to withdraw the portion of the value of the pool they contributed, not the exact number of tokens they put in. It could not promise all providers their exact tokens, because the ratio of different tokens held in the pool changes as trades occur. But as the ratio adjusts to reflect current wider market prices, the pool is going to progressively contain more of whatever token is losing value, and vice versa.</p>
+            <p className="content">This means that a liquidity provider will tend to end up withdrawing more of the token that lost value and less of the one that gained value, compared with their starting assets. Therefore, they will end up poorer than if they had just held onto their assets privately. In practice, DEXs generally compensate liquidity providers through transaction fees. But that means charging higher fees than they would otherwise need.</p>
+            <p className="title">Regulation</p>
+            <p className="content">DEXs are unregulated due to processing all their trades on public blockchains. Since they don't act as financial intermediaries or counterparties but only provide the infrastructure in the form of smart contracts, financial authorities have thus far been unsuccessful in regulating them. However, that may not be the case forever.</p>
+            <p className="title">Key Differences Between a CEX and a DEX</p>
+            <p className="subtitle">Custodial vs. non-custodial</p>
+            <p className="content">The crucial difference between centralized and decentralized exchanges is whether or not a middle man is present. Decentralized exchanges are less widespread and less popular as compared with centralized exchanges. Nonetheless, there are more decentralized exchanges all the time, and it's possible that they will give centralized exchanges a run for their money in the future.</p>
+            <p className="content">DEXs aim to complete transactions more quickly and cheaply than their centralized counterparts. They do this by cutting out the intermediary entities that take a cut of transaction fees on CEXs. A CEX charges fees for trading and withdrawals, but a DEX can be overall more expensive due to gas fees.</p>
+            <p className="title">Conclusion</p>
+            <p className="content">There is no clear winner between centralized and decentralized exchanges. One is not better than the other, but some traders may prefer a CEX to a DEX and vice versa. Many crypto traders use both, as certain tokens can only be found on DEXs and CEXs provide entry and exit points to cryptocurrencies and the regular financial system.</p>
+          
+
+
         </div>
     );
 };
