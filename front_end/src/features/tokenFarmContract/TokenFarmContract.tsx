@@ -20,13 +20,16 @@ const useStyles = makeStyles((theme) => ({
     gap: theme.spacing(4),
   },
   box: {
-    backgroundColor: "white",
+    backgroundColor: "#fff1ff",
     borderRadius: "25px",
-    margin: `${theme.spacing(4)}px 0`,
+    marginBottom: "4rem",
     padding: theme.spacing(2),
   },
   header: {
-    color: "white"
+    color: "#fff1ff",
+    fontSize: "2.5rem",
+    paddingTop: "3rem",
+    texAlign: "left",
   }
 }))
 
@@ -47,7 +50,7 @@ export const TokenFarmContract = ({
 
   return (
     <Box>
-      <h1 className={classes.header}>The TokenFarm Contract</h1>
+      <div className={classes.header}>Unstake Token</div>
       <Box className={classes.box}>
         <div>
           {isConnected ? (
