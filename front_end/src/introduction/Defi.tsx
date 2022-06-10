@@ -5,7 +5,6 @@ import './Template.css'
 export const Defi = () => {
     return (
         <div className="container">
-
             <h1 className="caption">DeFi</h1>
             
             <div>
