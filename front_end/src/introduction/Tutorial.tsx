@@ -17,7 +17,6 @@ export const Tutorial = () => {
                     There are already many moving parts to understand in the crypto industry, but setting up a wallet is arguably one of the more essential aspects. In this part our goal is to ensure that you can set up your own crypto wallet!<br></br>
                     <br></br>
                     Here’s a rundown on setting up a self-custody mobile wallet:
-                    2.<strong>Determine whether it is DeFi</strong><br></br>
                     &emsp;&emsp;a. Choose a wallet app such as Coinbase Wallet, Mycelium, or Metamask.<br></br>
                     &emsp;&emsp;b. Create an account and record your recovery phrase.<br></br>
                     &emsp;&emsp;c. Some wallet apps may allow you to add an extra layer of security, like facial recognition or a passcode.<br></br>
