@@ -77,7 +77,7 @@ export ETHERSCAN_TOKEN=<YOUR_TOKEN>
 > DO NOT SEND YOUR KEYS TO GITHUB
 > If you do that, people can steal all your funds. Ideally use an account with no real money in it. 
 
-# Useage
+# Usage
 
 ## Scripts
 
