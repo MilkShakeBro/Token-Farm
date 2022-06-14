@@ -1,13 +1,5 @@
 # Token-farm
 
-<br/>
-<p align="center">
-<a href="https://chain.link" target="_blank">
-<img src="./web-image.png" width="500" alt="Full Stack Example">
-</a>
-</p>
-<br/>
-
 ## Summary 
 This is a repo to build your own full stack defi staking application for yield farming, borrowing and lending, or any other project you can think of. It allows you to:
 
